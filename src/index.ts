@@ -1,5 +1,7 @@
+import * as names from './names';
+
 export const all = () => {
-  return [''];
+  return names;
 };
 
 export const random = () => {
