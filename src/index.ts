@@ -1,11 +1,12 @@
-import * as names from './names';
+import { sample } from 'lodash';
+import names from './names';
 
 export const all = () => {
   return names;
 };
 
 export const random = () => {
-  return '';
+  return sample(names);
 };
 
 export default { all, random };
