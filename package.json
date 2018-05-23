@@ -14,6 +14,7 @@
     "@commitlint/travis-cli": "^6.2.0",
     "@types/jest": "^22.2.3",
     "@types/lodash": "^4.14.109",
+    "codecov": "^3.0.2",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^0.14.3",
