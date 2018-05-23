@@ -14,8 +14,7 @@ export const random = (number?: number) => {
     return choices;
   }
 
-  const choice = sample(names);
-  return choice;
+  return sample(names);
 };
 
 export default { all, random };
