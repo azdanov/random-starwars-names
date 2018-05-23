@@ -12,3 +12,4 @@ branches:
 script:
   - commitlint-travis
   - yarn test --coverage --maxWorkers 4
+  - yarn run codecov
